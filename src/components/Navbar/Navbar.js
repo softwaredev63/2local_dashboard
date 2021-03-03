@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import Logo from "../../assets/2local logo wht.png";
 import Exchange from "../../assets/2local exchange.png";
 import Launchpad from "../../assets/Launchpad.png";
 import Airdrop from "../../assets/Airdrop.png";
 import Grow_plant from "../../assets/Grow_plant.png";
+import Dropdown from "./Dropdown";
 
 function Navbar() {
+	const [open, setopen] = useState(false);
+
 	return (
 		<div className="navbar-container">
 			<div>
@@ -49,7 +52,15 @@ function Navbar() {
 					</a>
 				</div>
 			</div>
-			<div className="dropdown">Antony</div>
+			<div
+				onClick={() => {
+					setopen(!open);
+				}}
+				className="dropdown"
+			>
+				Antony
+			</div>
+			{open && <Dropdown />}
 		</div>
 	);
 }

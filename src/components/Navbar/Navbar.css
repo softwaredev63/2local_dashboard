@@ -18,6 +18,9 @@
 
 .dropdown {
 	color: white;
+	cursor: pointer;
+	width: 12.5%;
+	text-align: start;
 }
 
 .inner-div {
