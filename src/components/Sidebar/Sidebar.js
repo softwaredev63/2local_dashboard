@@ -1,8 +1,5 @@
 import React from "react";
 import List from "./List";
-import "./Sidebar.css";
-import Eye from "../../assets/eye.png";
-import Caret from "../../assets/caret.png";
 
 const sideBarContainer = { width: "24%" };
 const balanceStyle = { color: "#8E94A1", fontSize: "16px" };
