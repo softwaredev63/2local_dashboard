@@ -34,7 +34,7 @@
 .body {
 	display: flex;
 	margin-bottom: 6.4rem;
-	background-color: #fafbfe;
+	background-color: blue;
 }
 
 @keyframes App-logo-spin {
