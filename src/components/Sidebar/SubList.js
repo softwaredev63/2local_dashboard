@@ -49,13 +49,6 @@ function SubList({ items, setCounter2, setCounter3 }) {
 												  }
 												: {}
 										}
-										// onClick={() =>
-										// 	setisOpen(
-										// 		isOpen.map((item, i) =>
-										// 			i === idx ? !item : item,
-										// 		),
-										// 	)
-										// }
 									/>
 								)}
 							</span>

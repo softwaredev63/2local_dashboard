@@ -30,7 +30,6 @@ function ListHead({
 					src={Caret}
 					alt=""
 					style={!isOpen ? { transform: "rotate(180deg)" } : {}}
-					// onClick={() => setisOpen(!isOpen)}
 				/>
 			</div>
 			{isOpen && (
