@@ -119,6 +119,7 @@
 	font-weight: bold;
 	margin-right: 1rem;
 	text-align: right;
+	float:right;
 }
 
 .password-row-input {
@@ -142,7 +143,7 @@
 	padding-right: 3rem;
 	height: 55px;
 	border: none;
-	margin-left: 10rem;
+	margin-left: 15rem;
 }
 
 .profile-container {
